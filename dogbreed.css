@@ -3,35 +3,15 @@
     border-style:none;
 }
 
-.dogbreedbody, .dogbreedwhy, .dogbreedaboutmebody, .akitachowbody {
+.body {
     margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
     align-items: center;
 }
 
-.dogbody {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 100px;
-    margin-left: 100px;
-    align-items: center;
-}
-
-.dogbreedbody #corgipic {
-    max-width: 100%; 
-    display: block; 
-    height: auto;
-}
-
-.dogbreedwhy #dogwalkpic {
-    max-width: 100%; 
-    display: block; 
-    height: auto;
-}
-
-.dogbreedaboutmebody #aboutmepic {
+#dogpic {
     max-width: 100%; 
     display: block; 
     height: auto;
@@ -39,7 +19,7 @@
 
 #picslides {
     float: left;
-    max-width: 50%;
+    max-width: 45%;
     margin-right: 15px;
     margin-bottom: 30px;
 }
@@ -60,3 +40,4 @@
     color: white;
     text-align: center;
 }
+

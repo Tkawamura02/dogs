@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
     <title>Dog Breeds</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -35,7 +33,7 @@
                         <a class="nav-link active" aria-current="page" href="dogbreedaboutme.html">About Me</a>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="dogbreedtypes.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Types of Dog Breeds
                       </a>
                       <div class="dropdown">
@@ -91,148 +89,36 @@
     </header>
 
     <div class="body">
-      <div id="picslides" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 4"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="src/bernesemountaindog/first.jpg" class="d-block w-100" alt="dog sitting in a patch of flowers">
-          </div>
-          <div class="carousel-item">
-            <img src="src/bernesemountaindog/second.jpg" class="d-block w-100" alt="dog looking at the camera">
-          </div>
-          <div class="carousel-item">
-            <img src="src/bernesemountaindog/third.jpg" class="d-block w-100" alt="puppy smiling at camera and sitting on grass">
-          </div>
-          <div class="carousel-item">
-            <img src="src/bernesemountaindog/fourth.jpg" class="d-block w-100" alt="smiling dog laying on cement sidewalk">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-        
-        <h2>Bernese Mountain Dog</h2>
+        <img id="dogpic" src="src/dogbreedpicindex.jpg" alt="cute puppy laying on the grass"/>
+        <caption>Image: Black, brown, and white puppy laying on the grass staring at photographer</caption>
+        <br> <br>
+        <h2>Dogs</h2>
         <p>
-            Bernese Mountain Dog is known for being a Switzerland working dog breed who are loyal
-            and loving companions. They are extremely great family pets as they are great around children.
-            They are playful and protective but not aggressive in any way. They can be prone to barking
-            and shedding so make sure that you prepare for regular grooming sessions!
+            Dogs descend from a species of wolf and have different appearances due to the several
+            hundred breeds available in the world today. Domestic dogs came to be as a result of being
+            kept as pets. They are one of the most popular pet choice on the planet.
         </p>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 py-2">
-                    <div class="card card-body h-100">
-                        <h5 class="card-title">Minor Health Issues</h5>
-                            <dl>
-                                <dt>Cataract</dt>
-                                <dt>Entropion</dt>
-                                <dt>Ectropian</dt>
-                                <dt>(SAS) Subvalvular Aortic Stenosis</dt>
-                            </dl>
-                    </div>
-                </div>
-                <div class="col-sm-4 py-2">
-                    <div class="card h-100 text-white bg-danger">
-                        <div class="card-body">
-                            <h5 class="card-title">Major Health Issues</h5>
-                                <dl>
-                                    <dt>(CHD) Congenital Heart Defects</dt>
-                                    <dt>Elbow Dysplasia</dt>
-                                    <dt>Mast Cell Tumor</dt>
-                                    <dt>Gastric Torsion</dt>
-                                </dl>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 py-2">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Temperament</h5>
-                            <dl>
-                                <dt>Faithful</dt>
-                                <dt>Quick Learners</dt>
-                                <dt>Patient</dt>
-                                <dt>Calm</dt>
-                                <dt>Affectionate</dt>
-                                <dt>Alert</dt>
-                            </dl>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br><br>
-
-        <h4>General Information</h4>
-        <table class="table table-dark table-hover">
-            <thead>
-                <tr>
-                    <th scope="col">Topic</th>
-                    <th scope="col">Information</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">Height</th>
-                    <td>23-27.5 inches</td>
-                </tr>
-                <tr>
-                    <th scope="row">Weight</th>
-                    <td>70-115 pounds</td>
-                </tr>
-                <tr>
-                    <th scope="row">Lifespan</th>
-                    <td>7-10 years</td>
-                </tr>
-                <tr>
-                    <th scope="row">Energy</th>
-                    <td>Medium</td>
-                </tr>
-                <tr>
-                    <th scope="row">Health</th>
-                    <td>Medium</td>
-                </tr>
-                <tr>
-                    <th scope="row">Sociability</th>
-                    <td>High</td>
-                </tr>
-                <tr>
-                    <th scope="row">Trainability</th>
-                    <td>High</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <br>
-        <h4>History</h4>
         <p>
-            They originate mostly in the city of Berne in the midland regions of Switzerland.
-            Not surprisingly, they served as farm dogs, companions, watchdogs for the farmer
-            and his family typically to unfamiliar visitors. It is very likely that they were 
-            used for farming tasks such as pulling carts, accompanying cows to pasture, etc. 
-            It is important to mention that they were not used as herding animals!
+            Even though the most common belief is that all dogs descend from all wolves, this is not 
+            necessarily true. Recent studies suggest that Eurasian wolves are the ancestors to modern
+            dogs but this is a very rocky subject as it requires more research and experimentation. 
         </p>
-
-        <h4>Maintenance</h4>
         <p>
-            This breed possesses long, silky coats for cold weather which should be groomed 
-            every 4-8 weeks with frequent grooming during their shedding seasons of spring and fall. 
-            It is, however, best practice to brush them at least once per week just to remove any 
-            extra hair present in their coats. Do regular nail trims and ear cleanings for groooming and 
-            allow them to exercise outdoors! They are farm dogs by heritage, therefore, they should have moderate
-            amounts of exercise and obedience training.
+            The story of how dogs came to be is also another gray area that requires more evidence but 
+            we do know that genetics suggest that dogs broke off from wild ancestors between <strong>15,000
+            and 30,000 years ago</strong>. Based on other species and evolution, it is believed that the evolution
+            of dogs occured gradually and slowly. It is possible that wolves may have been welcomed 
+            into the human home and eventually bred to the many dogs we have now.
+        </p>
+        <p>
+            Pets back then were most likely used for different purposes like herding or warning. Even though
+            the modern jobs for dogs are not job-heavy. There are some things that dogs do that assist human 
+            jobs. A great example is the fact that dog's have a great sense of smell and are able to assist 
+            law enforcement by sniffing out drugs and explosives. They are not only using their noses to 
+            detect weapons but also life threatening signs like low blood pressure or high blood pressure. 
+            Some dogs are well trained in warning their owners when their blood pressure changes too rapidly. 
+            They are also used as the most popular service animal and can guide people with disabilities or 
+            even people with anxiety. 
         </p>
     </div>
 
