@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dog Breeds</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="dogbreed.css">
+</head>
+<body>
+    <header>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Dogs</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="dogbreedwhy.html">Why Should I get a Dog?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="dogbreedaboutme.html">About Me</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="dogbreedtypes.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Types of Dog Breeds
+                      </a>
+                      <div class="dropdown">
+                        <div class="dropdown-content">
+                            <a class="dropdown-item" href="akitachow.html">Akita Chow</a>
+                            <a class="dropdown-item" href="alaskankleekai.html">Alaskan Klee Kai</a>
+                            <a class="dropdown-item" href="australianshepherd.html">Australian Shepherd</a>
+                            <a class="dropdown-item" href="bernesemountaindog.html">Bernese Mountain Dog</a>
+                            <a class="dropdown-item" href="bordercollie.html">Border Collie</a>
+                            <a class="dropdown-item" href="boxer.html">Boxer</a>
+                            <a class="dropdown-item" href="canecorso.html">Cane Corso</a>
+                            <a class="dropdown-item" href="cavalierspaniel.html">Cavalier King Charles Spaniel</a>
+                            <a class="dropdown-item" href="doberman.html">Doberman</a>
+                            <a class="dropdown-item" href="englishsetter.html">English Setter</a>
+                            <a class="dropdown-item" href="entlebucher.html">Entlebucher Mountain Dog</a>
+                            <a class="dropdown-item" href="formosan.html">Formosan Mountain Dog</a>
+                            <a class="dropdown-item" href="goldenmountain.html">Golden Mountain Dog</a>
+                            <a class="dropdown-item" href="greaterswiss.html">Greater Swiss Mountain Dog</a>
+                            <a class="dropdown-item" href="havapoo.html">Havapoo</a>
+                            <a class="dropdown-item" href="hokkaido.html">Hokkaido</a>
+                            <a class="dropdown-item" href="icelandicsheepdog.html">Icelandic Sheepdog</a>
+                            <a class="dropdown-item" href="italiangreyhound.html">Italian Greyhound</a>
+                            <a class="dropdown-item" href="japanesespitz.html">Japanese Spitz</a>
+                            <a class="dropdown-item" href="jindo.html">Jindo</a>
+                            <a class="dropdown-item" href="kaiken.html">Kai Ken</a>
+                            <a class="dropdown-item" href="karelianbeardog.html">Karelian Bear Dog</a>
+                            <a class="dropdown-item" href="labradorretriever.html">Labrador Retriever</a>
+                            <a class="dropdown-item" href="lapponianherder.html">Lapponian Herder</a>
+                            <a class="dropdown-item" href="mastiff.html">Mastiff</a>
+                            <a class="dropdown-item" href="mountaincur.html">Mountain Cur</a>
+                            <a class="dropdown-item" href="neapolitanmastiff.html">Neapolitan Mastiff</a>
+                            <a class="dropdown-item" href="newfoundland.html">Newfoundland</a>
+                            <a class="dropdown-item" href="oldenglish.html">Old English Sheepdog</a>
+                            <a class="dropdown-item" href="pyreneanmastiff.html">Pyrenean Mastiff</a>
+                            <a class="dropdown-item" href="rafeirodoalentejo.html">Rafeiro do Alentejo</a>
+                            <a class="dropdown-item" href="romanianmioritic.html">Romanian Mioritic Shepherd Dog</a>
+                            <a class="dropdown-item" href="rottweiler.html">Rottweiler</a>
+                            <a class="dropdown-item" href="saintbernard.html">Saint Bernard</a>
+                            <a class="dropdown-item" href="samoyed.html">Samoyed</a>
+                            <a class="dropdown-item" href="tibetanmastiff.html">Tibetan Mastiff</a>
+                            <a class="dropdown-item" href="vizsla.html">Vizsla</a>
+                            <a class="dropdown-item" href="weimaraner.html">Weimaraner</a>
+                            <a class="dropdown-item" href="xoloitzcuintli.html">Xoloitzcuintli</a>
+                            <a class="dropdown-item" href="yakutianlaika.html">Yakutian Laika</a>
+                        </div>
+                    </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="body">
+      <div id="picslides" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="src/greaterswiss/first.jpg" class="d-block w-100" alt="panting dog ">
+          </div>
+          <div class="carousel-item">
+            <img src="src/greaterswiss/second.jpg" class="d-block w-100" alt="dog laying down on stone pathway">
+          </div>
+          <div class="carousel-item">
+            <img src="src/greaterswiss/third.webp" class="d-block w-100" alt="dog panting standing on grass">
+          </div>
+          <div class="carousel-item">
+            <img src="src/greaterswiss/fourth.jpg" class="d-block w-100" alt="dog standing in flower field">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        
+        <h2>Greater Swiss Mountain Dog</h2>
+        <p>
+            Greater Swiss Mountain Dogs are large, immensely strong worker famous for a dense coat. Dependable and 
+            faithful Swissies earned their feed as herders, drafters, and all-round pasture dogs. They are strong 
+            enough to pull heavy carts and agile enough to corral cattle on muontainous farms. They are great for 
+            family pets and do best where they can exercise. 
+        </p>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 py-2">
+                    <div class="card card-body h-100">
+                        <h5 class="card-title">Minor Health Issues</h5>
+                            <dl>
+                                <dt>Elbow Dysplasia</dt>
+                                <dt>Panosteitis</dt>
+                                <dt>Osteochondritis</dt>
+                                <dt>Distichiasis</dt>
+                            </dl>
+                    </div>
+                </div>
+                <div class="col-sm-4 py-2">
+                    <div class="card h-100 text-white bg-danger">
+                        <div class="card-body">
+                            <h5 class="card-title">Major Health Issues</h5>
+                                <dl>
+                                    <dt>(CHD) Canine Hip Dysplasia</dt>
+                                    <dt>Splenic Torsion</dt>
+                                    <dt>Seizures</dt>
+                                </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 py-2">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Temperament</h5>
+                            <dl>
+                                <dt>Gentle</dt>
+                                <dt>Friendly</dt>
+                                <dt>Willful</dt>
+                                <dt>Playful</dt>
+                                <dt>Eager to Please</dt>
+                                <dt>Protective</dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+        <h4>General Information</h4>
+        <table class="table table-dark table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Topic</th>
+                    <th scope="col">Information</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Height</th>
+                    <td>23-29 inches</td>
+                </tr>
+                <tr>
+                    <th scope="row">Weight</th>
+                    <td>85-140 pounds</td>
+                </tr>
+                <tr>
+                    <th scope="row">Lifespan</th>
+                    <td>8-11 years</td>
+                </tr>
+                <tr>
+                    <th scope="row">Energy</th>
+                    <td>High</td>
+                </tr>
+                <tr>
+                    <th scope="row">Health</th>
+                    <td>Medium</td>
+                </tr>
+                <tr>
+                    <th scope="row">Sociability</th>
+                    <td>Medium</td>
+                </tr>
+                <tr>
+                    <th scope="row">Trainability</th>
+                    <td>High</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <h4>History</h4>
+        <p>
+            There is a lot of legends associated with their history, however, the most popular tale states that they 
+            descended from the Mollasian, large mastiff-type of dog that once accompanied the Roman Legions on their 
+            invasion of the Alps in the first century. Another possibility is that the Roman dogs were bred with a large 
+            breed that was indigenous to central Europe during the Neolithic period. They tend to work in remote mountain 
+            passes where they haul meat and dairy in dog carts. They are used as watchdogs and family companions. 
+        </p>
+
+        <h4>Maintenance</h4>
+        <p>
+            They have a short coat that is easy to care for with regular brushing and occasional bathing especially during 
+            the spring and fall where they have seasonal shedding. Regularly brush their teeth and trim their nails. With 
+            their energy, this breed is better suited as a hiking companion than a marathon training partner. This means that 
+            they will not be happy with a neighborhood run. 
+        </p>
+    </div>
+
+    <footer class="footer">
+        <p>© 2022. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+</body>
+</html>
