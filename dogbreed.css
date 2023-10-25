@@ -11,13 +11,7 @@
     align-items: center;
 }
 
-#dogpic {
-    max-width: 100%; 
-    display: block; 
-    height: auto;
-}
-
-#picslides {
+.picslides {
     float: left;
     max-width: 45%;
     margin-right: 15px;
