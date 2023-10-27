@@ -3,6 +3,10 @@
     border-style:none;
 }
 
+.dogpic {
+    max-width: 100%;
+}
+
 .body {
     margin-top: 100px;
     margin-bottom: 50px;
@@ -38,8 +42,5 @@
 @media only screen and (max-width: 600px) {
     .picslides {
       max-width: 95%;
-    }
-    .dogpic {
-        max-width: 100%;
     }
 }
