@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Dog Breeds</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="dogbreed.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Dogs</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="dogbreedwhy.html">Why Should I get a Dog?</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="dogbreedtypes.html" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Types of Dog Breeds
+                </a>
+                <div class="dropdown">
+                  <div class="dropdown-content">
+                    <a class="dropdown-item" href="akitachow.html">Akita Chow</a>
+                    <a class="dropdown-item" href="alaskankleekai.html">Alaskan Klee Kai</a>
+                    <a class="dropdown-item" href="australianshepherd.html">Australian Shepherd</a>
+                    <a class="dropdown-item" href="bernesemountaindog.html">Bernese Mountain Dog</a>
+                    <a class="dropdown-item" href="bordercollie.html">Border Collie</a>
+                    <a class="dropdown-item" href="boxer.html">Boxer</a>
+                    <a class="dropdown-item" href="canecorso.html">Cane Corso</a>
+                    <a class="dropdown-item" href="cavalierspaniel.html">Cavalier King Charles Spaniel</a>
+                    <a class="dropdown-item" href="doberman.html">Doberman</a>
+                    <a class="dropdown-item" href="englishsetter.html">English Setter</a>
+                    <a class="dropdown-item" href="entlebucher.html">Entlebucher Mountain Dog</a>
+                    <a class="dropdown-item" href="formosan.html">Formosan Mountain Dog</a>
+                    <a class="dropdown-item" href="goldenmountain.html">Golden Mountain Dog</a>
+                    <a class="dropdown-item" href="greaterswiss.html">Greater Swiss Mountain Dog</a>
+                    <a class="dropdown-item" href="havapoo.html">Havapoo</a>
+                    <a class="dropdown-item" href="hokkaido.html">Hokkaido</a>
+                    <a class="dropdown-item" href="icelandicsheepdog.html">Icelandic Sheepdog</a>
+                    <a class="dropdown-item" href="italiangreyhound.html">Italian Greyhound</a>
+                    <a class="dropdown-item" href="japanesespitz.html">Japanese Spitz</a>
+                    <a class="dropdown-item" href="jindo.html">Jindo</a>
+                    <a class="dropdown-item" href="kaiken.html">Kai Ken</a>
+                    <a class="dropdown-item" href="karelianbeardog.html">Karelian Bear Dog</a>
+                    <a class="dropdown-item" href="labradorretriever.html">Labrador Retriever</a>
+                    <a class="dropdown-item" href="lapponianherder.html">Lapponian Herder</a>
+                    <a class="dropdown-item" href="mastiff.html">Mastiff</a>
+                    <a class="dropdown-item" href="mountaincur.html">Mountain Cur</a>
+                    <a class="dropdown-item" href="neapolitanmastiff.html">Neapolitan Mastiff</a>
+                    <a class="dropdown-item" href="newfoundland.html">Newfoundland</a>
+                    <a class="dropdown-item" href="oldenglish.html">Old English Sheepdog</a>
+                    <a class="dropdown-item" href="pyreneanmastiff.html">Pyrenean Mastiff</a>
+                    <a class="dropdown-item" href="rafeirodoalentejo.html">Rafeiro do Alentejo</a>
+                    <a class="dropdown-item" href="romanianmioritic.html">Romanian Mioritic Shepherd Dog</a>
+                    <a class="dropdown-item" href="rottweiler.html">Rottweiler</a>
+                    <a class="dropdown-item" href="saintbernard.html">Saint Bernard</a>
+                    <a class="dropdown-item" href="samoyed.html">Samoyed</a>
+                    <a class="dropdown-item" href="tibetanmastiff.html">Tibetan Mastiff</a>
+                    <a class="dropdown-item" href="vizsla.html">Vizsla</a>
+                    <a class="dropdown-item" href="weimaraner.html">Weimaraner</a>
+                    <a class="dropdown-item" href="xoloitzcuintli.html">Xoloitzcuintli</a>
+                    <a class="dropdown-item" href="yakutianlaika.html">Yakutian Laika</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="body">
+    <div id="pm-picslides" class="carousel slide picslides" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button id="slide-0" type="button" data-bs-target="#pm-picslides" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button id="slide-1" type="button" data-bs-target="#pm-picslides" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button id="slide-2" type="button" data-bs-target="#pm-picslides" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button id="slide-3" type="button" data-bs-target="#pm-picslides" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/pyreneanmastiff/first.jpg" class="d-block w-100" alt="four puppies looking at the camera">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/pyreneanmastiff/second.jpg" class="d-block w-100" alt="dog standing on grass">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/pyreneanmastiff/third.jpg" class="d-block w-100"
+            alt="dog panting close up">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/pyreneanmastiff/fourth.jpg" class="d-block w-100"
+            alt="dog standing on rock with mountain in the background">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#pm-picslides" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#pm-picslides" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <h2>Pyrenean Mastiff</h2>
+    <p>
+      Pyrenean Mastiffs are large, gentle giants known for their calm and protective nature. They 
+      have a thick double coat and a large, muscular build. Pyrenean Mastiffs are loyal and affectionate, 
+      making them excellent family pets and guardians. They require regular exercise and socialization 
+      to thrive.
+    </p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 py-2">
+          <div class="card card-body h-100">
+            <h5 class="card-title">Minor Health Issues</h5>
+            <dl>
+              <dt>Hip Dysplasia</dt>
+              <dt>Elbow Dysplasia</dt>
+            </dl>
+          </div>
+        </div>
+        <div class="col-sm-4 py-2">
+          <div class="card h-100 text-white bg-danger">
+            <div class="card-body">
+              <h5 class="card-title">Major Health Issues</h5>
+              <dl>
+                <dt>Gastric Torsion</dt>
+                <dt>Heart Conditions</dt>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 py-2">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Temperament</h5>
+              <dl>
+                <dt>Gentle</dt>
+                <dt>Loyal</dt>
+                <dt>Protective</dt>
+                <dt>Independent</dt>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+
+    <h4>General Information</h4>
+    <table class="table table-dark table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Topic</th>
+          <th scope="col">Information</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Height</th>
+          <td>28-32 inches</td>
+        </tr>
+        <tr>
+          <th scope="row">Weight</th>
+          <td>120-180 pounds</td>
+        </tr>
+        <tr>
+          <th scope="row">Lifespan</th>
+          <td>10-12 years</td>
+        </tr>
+        <tr>
+          <th scope="row">Energy</th>
+          <td>Moderate</td>
+        </tr>
+        <tr>
+          <th scope="row">Health</th>
+          <td>Medium</td>
+        </tr>
+        <tr>
+          <th scope="row">Sociability</th>
+          <td>Moderate</td>
+        </tr>
+        <tr>
+          <th scope="row">Trainability</th>
+          <td>Medium</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br>
+    <h4>History</h4>
+    <p>
+      Pyrenean Mastiffs have a long history that can be traced back to the Pyrenees Mountains in 
+      Spain. They were originally bred to guard livestock and homes in the region. Pyrenean Mastiffs 
+      are descendants of ancient flock guardian dogs and have been valued for their strong protective 
+      instincts. They are still used as working dogs today in some parts of the world.
+    </p>
+
+    <h4>Maintenance</h4>
+    <p>
+      Due to their thick double coat, Pyrenean Mastiffs require regular grooming to prevent matting 
+      and keep their coat healthy. Weekly brushing is recommended to remove loose hair and prevent tangles. 
+      They are moderate shedders. Pyrenean Mastiffs benefit from regular exercise to maintain their 
+      physical and mental well-being. Early socialization and obedience training are important to ensure 
+      they grow up into well-behaved and balanced dogs.
+    </p>
+  </div>
+
+  <footer class="footer">
+    <p>© 2022. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
