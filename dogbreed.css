@@ -39,4 +39,7 @@
     .picslides {
       max-width: 95%;
     }
-  }
+    .dogpic {
+        max-width: 100%;
+    }
+}
